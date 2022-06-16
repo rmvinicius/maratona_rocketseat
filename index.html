@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <title>Maratona explorer</title>
     </head>
     <body>
         <div id="container">
             <img class="img-bola" src="./bola-cristal.png" alt="Imagem de uma bola de cristal">
             <h1>Vou revelar o seu destino!</h1>
             <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
-            <input type="text" placeholder="Digite sua pergunta...">
-            <button>Fazer pergunta</button>
-            <h3 id="resposta">
-                <div>Pergunta que fiz</div>
-                Sim!
-            </h3>
+            <input id="inputPergunta" type="text" placeholder="Digite sua pergunta...">
+            <button id="buttonPerguntar" onclick="fazerPergunta()">Fazer pergunta</button>
+            <h3 id="resposta"></h3>
         </div>
     </body>
+<script type="text/javascript"  src="./script.js"></script>
 </html>
